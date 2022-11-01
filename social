@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  
+  <title>All My Socials</title>
+  
+  <style>
+  
+	body {
+  background-image: url('https://i.pinimg.com/originals/fa/f8/a2/faf8a2f73b982e6dd33d23404802be3a.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}  
+  
+  	
+    h1, h2{
+    	text-align: center;
+    
+    }
+    
+    p{
+    	text-align: center;
+    }
+    
+    .container div{
+    	padding: 1%;
+        box-sizing: border-box;
+    
+    }
+    
+    a{
+    	text-align: center;
+    }
+    
+    .header{
+    
+        height: 50px;
+        text-align: center;
+        color: white;
+        padding: 1px;
+        
+    }
+
+	.left-column, .right-column{
+    	
+        color: white;
+        width: 100%;
+        text-allign: center;
+        
+    }
+	
+    div.center-column{
+    	color: white;
+        width: 100%;
+    	text-align: center;
+    }
+    
+    .footer{
+    	clear: both;
+        text-align: center;
+        height: 50px;
+        padding-top: 10px;
+        box-sizing: border-box;
+        color:white;
+    
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+
+<div class="header">
+	<h1>Hello World_</h1>
+</div>
+
+<div class="container">
+	<div class="left-column">
+    	<div class="innerleft-column">	
+            <h2> Instagram </h2>
+            
+        	<p><a href="https://www.instagram.com/pipo_04/" style="color: White">Follow me on Instagram @PIPO_04</a></p>
+        </div>
+    </div>
+    
+    
+    
+    <div class="right-column">
+    	<h2> Twitter </h2>
+        
+    	<p><a href="https://twitter.com/PIPOx04" style="color: white">Follow me on Twitter @PIPOx04</a></p>
+    </div>
+
+    
+    
+    <div class="center-column">
+    	<div class="inside-center">	
+        	<h2> Youtube </h2> 
+        	<p> My Most Recent Video: </p>
+        	<iframe width="420" height="345" src="https://www.youtube.com/embed/DsTANjYe91o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"> </iframe>
+		</div>
+    </div>
+    
+
+</div>
+
+<div class="footer">
+<h3>Don't Ask For Better Leaders, Be Better People</h3>
+</div>
+
+
+</body>
+</html>
